@@ -2,7 +2,7 @@ import product1 from "../../images/product-1.jpg";
 import product2 from "../../images/product-2.jpg";
 import product3 from "../../images/product-3.jpg";
 // dessert
-import sweet1 from "../../images/sweet3.jpg";
+import sweet1 from "../../images/sweet-1.jpg";
 import sweet2 from "../../images/sweet-2.jpg";
 import sweet3 from "../../images/sweet-3.jpg";
 
@@ -35,7 +35,7 @@ export const productData = [
 
 export const productDataTwo = [
   {
-    img: sweet2,
+    img: sweet1,
     alt: "Donuts",
     name: "Doughlicious",
     desc: "Belgian chocolate glazed donuts covered in icing with sprinkles on top",
@@ -43,7 +43,7 @@ export const productDataTwo = [
     button: "Add to Cart",
   },
   {
-    img: sweet3,
+    img: sweet2,
     alt: "Ice Cream",
     name: "Caramel Wonder",
     desc: "Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick",
@@ -51,7 +51,7 @@ export const productDataTwo = [
     button: "Add to Cart",
   },
   {
-    img: sweet1,
+    img: sweet3,
     alt: "Brownie",
     name: "Brownie Bunch",
     desc: "Double fudge brownie squares topped with white chocolate pieces and macadamia nuts",
